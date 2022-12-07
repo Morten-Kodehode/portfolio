@@ -1,3 +1,5 @@
+import React from "react";
+
 function About() {
   return (
     <div className="bg-purple-900 font-lato px-3 md:px-10 lg:px-40 py-12 md:grid grid-cols-2">

@@ -5,13 +5,15 @@ export default [
     tools: ["React", "Tailwind", "Vite"]
   },
   {
-    title: "Placeholder Project",
+    title: "PokeDex",
     image: "/assets/project2.jpg",
-    tools: ["HTML", "CSS", "JavaScript"]
+    tools: ["HTML", "CSS", "JavaScript", "API"]
   },
   {
-    title: "Placeholder Project",
+    title: "IP Adress Tracker",
     image: "/assets/project3.jpg",
-    tools: ["HTML", "CSS", "JavaScript"]
+    tools: ["HTML", "SCSS", "JavaScript", "API"],
+    github: "https://github.com/Morten-Kodehode/IP-Address-Tracker",
+    live: "https://morten-kodehode.github.io/IP-Address-Tracker/"
   },
 ]

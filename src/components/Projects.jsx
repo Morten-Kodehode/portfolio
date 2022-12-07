@@ -1,3 +1,4 @@
+import React from "react";
 import projects from "../data/projects";
 import ProjectCard from "./ProjectCard";
 
@@ -13,6 +14,8 @@ function Projects() {
                 image = {project.image}
                 title = {project.title}
                 tools = {project.tools}
+                github = {project.github}
+                live = {project.live}
               />
             )}
         </div>
