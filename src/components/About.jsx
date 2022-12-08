@@ -17,7 +17,7 @@ function About() {
         <p className="text-white mb">Hopefully working for a company as a software engineer/web developer.</p>
       </div>
       <div className="flex items-center mt-12 md:mt-0">
-        <img src="/assets/selfie.png" alt="picture of myself cartoon" />
+        <img src="/assets/selfie.PNG" alt="picture of myself cartoon" />
       </div>
     </div>
   )
