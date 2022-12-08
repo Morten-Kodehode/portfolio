@@ -13,6 +13,7 @@ function Projects() {
                 key = {index}
                 image = {project.image}
                 title = {project.title}
+                desc = {project.desc}
                 tools = {project.tools}
                 github = {project.github}
                 live = {project.live}
