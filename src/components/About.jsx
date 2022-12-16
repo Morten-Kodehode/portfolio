@@ -28,7 +28,7 @@ function About() {
           Hopefully working for a company as a software engineer/web developer.
         </p>
       </div>
-      <div className="flex items-center mt-12 md:mt-0">
+      <div className="flex items-center justify-center mt-12 md:mt-0">
         <img src="/assets/selfie.PNG" alt="picture of myself cartoon" />
       </div>
     </div>
