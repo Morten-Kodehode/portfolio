@@ -4,7 +4,7 @@ export default [
     image: "/assets/project1.jpg",
     tools: ["React", "Tailwind", "Vite"],
     github: "https://github.com/Morten-Kodehode/portfolio",
-    live: "",
+    live: "https://mortenjohansson.xyz/",
     desc: "Portfolio project. Also the one your currently one. Learned alot of tailwind during this project.",
   },
   {
@@ -23,4 +23,4 @@ export default [
     live: "https://morten-kodehode.github.io/IP-Address-Tracker/",
     desc: "Another API project. Got good knowledge on how to display info onto a map.",
   },
-]
+];
