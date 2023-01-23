@@ -7,15 +7,7 @@ function Footer() {
         Morten <span className="text-orange-400">Johansson</span>
       </h2>
       <div className="text-orange-400">
-        <p>
-          <a
-            href="https://github.com/Morten-Kodehode"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </a>
-        </p>
+        <p>&copy; 2023</p>
       </div>
     </div>
   );
