@@ -27,6 +27,7 @@ function Hero() {
           href="https://github.com/Morten-Kodehode"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="github link"
         >
           <BsGithub className="text-orange-700 text-3xl hover:animate-[pulse_1s_infinite]" />
         </a>
