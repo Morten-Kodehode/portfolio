@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="font-lato flex flex-col justify-evenly items-center bg-black h-24">
+    <div className="font-lato flex flex-col justify-evenly items-center bg-purple-900 h-24">
       <h2 className="text-white text-xl">
         Morten <span className="text-orange-400">Johansson</span>
       </h2>
