@@ -22,9 +22,16 @@ function Hero() {
         </a>
         to jump to the projects.
       </p>
-      <aside className="fixed left-0 bottom-0 flex flex-col justify-center items-center gap-y-3 p-2 bg-black w-[50px] rounded-tr-xl border-orange-700 border-2 z-10">
-        <BsGithub className="text-orange-700 text-3xl hover:animate-[pulse_1s_infinite]" />
-        <BsLinkedin className="text-orange-700 text-3xl hover:animate-[pulse_1s_infinite]" />
+      <aside className="fixed left-0 bottom-0 flex flex-col justify-center items-center gap-y-3 p-2 bg-black w-[50px] rounded-tr-xl rounded-bl-xl border-orange-700 border-2 z-10">
+        <a
+          href="https://github.com/Morten-Kodehode"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <BsGithub className="text-orange-700 text-3xl hover:animate-[pulse_1s_infinite]" />
+        </a>
+
+        {/* <BsLinkedin className="text-orange-700 text-3xl hover:animate-[pulse_1s_infinite]" href=""/>  Will add later */}
       </aside>
     </div>
   );
