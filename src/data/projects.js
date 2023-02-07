@@ -1,7 +1,7 @@
 export default [
   {
     title: "Portfolio",
-    image: "/assets/project1.jpg",
+    image: "/assets/portfolioPicture.png",
     tools: ["React", "Tailwind", "Vite"],
     github: "https://github.com/Morten-Kodehode/portfolio",
     live: "https://mortenjohansson.xyz/",
@@ -9,7 +9,7 @@ export default [
   },
   {
     title: "PokeDex",
-    image: "/assets/project2.jpg",
+    image: "/assets/pokedex.png",
     tools: ["HTML", "CSS", "JavaScript", "API"],
     github: "https://github.com/Morten-Kodehode/pokeDex",
     live: "https://morten-kodehode.github.io/pokeDex/",
@@ -17,10 +17,18 @@ export default [
   },
   {
     title: "IP Adress Tracker",
-    image: "/assets/project3.jpg",
+    image: "/assets/iptracker.png",
     tools: ["HTML", "SCSS", "JavaScript", "API"],
     github: "https://github.com/Morten-Kodehode/IP-Address-Tracker",
     live: "https://morten-kodehode.github.io/IP-Address-Tracker/",
     desc: "Another API project. Got good knowledge on how to display info onto a map.",
+  },
+  {
+    title: "Christmas Tracker",
+    image: "/assets/xmas.png",
+    tools: ["HTML", "Tailwind", "React"],
+    github: "https://github.com/Morten-Kodehode/christmas-countdown",
+    live: "https://xmas.mortenjohansson.xyz/",
+    desc: "Christmas project at Kodehode. Made a christmas countdown in ReactJS",
   },
 ];
