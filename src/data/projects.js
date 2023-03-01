@@ -1,13 +1,5 @@
 export default [
   {
-    title: "Portfolio",
-    image: "/assets/portfolioPicture.png",
-    tools: ["React", "Tailwind", "Vite"],
-    github: "https://github.com/Morten-Kodehode/portfolio",
-    live: "https://mortenjohansson.xyz/",
-    desc: "Portfolio project. Also the one your currently one. Learned alot of tailwind during this project.",
-  },
-  {
     title: "PokeDex",
     image: "/assets/pokedex.png",
     tools: ["HTML", "CSS", "JavaScript", "API"],
