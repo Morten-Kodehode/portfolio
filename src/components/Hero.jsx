@@ -31,8 +31,6 @@ function Hero() {
         >
           <BsGithub className="text-orange-700 text-3xl hover:animate-[pulse_1s_infinite]" />
         </a>
-
-        {/* <BsLinkedin className="text-orange-700 text-3xl hover:animate-[pulse_1s_infinite]" href=""/>  Will add later */}
       </aside>
     </div>
   );
