@@ -2,7 +2,7 @@ import React from "react";
 
 function ProjectCard({ title, desc, image, tools, github, live }) {
   return (
-    <div className="border-2 border-orange-400 rounded-lg overflow-hidden relative">
+    <div className="overflow-hidden relative rounded-md mb-12">
       <img
         src={image}
         alt="Project Image"
@@ -28,7 +28,7 @@ function ProjectCard({ title, desc, image, tools, github, live }) {
           </a>
         </div>
       </div>
-      <div className="w-full p-4 h-full bg-purple-900">
+      <div className="w-full px-4 py-6 h-full bg-purple-900">
         <h3 className="text-xl mb-2 font-semibold text-orange-400">{title}</h3>
         <p className="mb-2 text-white">{desc}</p>
         <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-sm text-white">

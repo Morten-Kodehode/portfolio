@@ -6,6 +6,7 @@ function About() {
     { name: "CSS" },
     { name: "JavaScript" },
     { name: "React" },
+    { name: "SCSS" },
     { name: "Tailwind CSS" },
     { name: "Git" },
     { name: "GitHub" },
@@ -35,7 +36,7 @@ function About() {
           Blender and Unreal Engine 5.
         </p>
         <p className="text-xl text-orange-400 mb-5">/* The Future */</p>
-        <p className="text-white mb">
+        <p className="text-white pb-12">
           Hopefully working for a company as a software engineer/web developer.
         </p>
       </div>

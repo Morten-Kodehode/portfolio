@@ -5,7 +5,7 @@ import ProjectCard from "./ProjectCard";
 function Projects() {
   return (
     <div id="projects" className="bg-black px-3 md:px-10 lg:px-40 py-12">
-      <h2 className="text-2xl md:text-3xl lg:text-4xl text-orange-400 pb-10">
+      <h2 className="text-2xl md:text-3xl lg:text-4xl text-orange-400 pb-10 pt-12">
         Projects
       </h2>
       <div className="flex flex-col">
