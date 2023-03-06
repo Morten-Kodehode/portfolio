@@ -1,16 +1,30 @@
 import React from "react";
+import { AiOutlineHtml5 } from "react-icons/ai";
+import { DiCss3, DiSass, DiGit, DiGithubBadge } from "react-icons/di";
+import {
+  SiJavascript,
+  SiReact,
+  SiTailwindcss,
+  SiFigma,
+  SiUnrealengine,
+  SiVite,
+  SiBlender,
+} from "react-icons/si";
 
 function About() {
   const skills = [
-    { name: "HTML" },
-    { name: "CSS" },
-    { name: "JavaScript" },
-    { name: "React" },
-    { name: "SCSS" },
-    { name: "Tailwind" },
-    { name: "Git" },
-    { name: "GitHub" },
-    { name: "Figma" },
+    { name: "HTML", icon: <AiOutlineHtml5 /> },
+    { name: "CSS", icon: <DiCss3 /> },
+    { name: "JavaScript", icon: <SiJavascript /> },
+    { name: "React", icon: <SiReact /> },
+    { name: "SCSS", icon: <DiSass /> },
+    { name: "Tailwind", icon: <SiTailwindcss /> },
+    { name: "Git", icon: <DiGit /> },
+    { name: "GitHub", icon: <DiGithubBadge /> },
+    { name: "Figma", icon: <SiFigma /> },
+    { name: "Vite", icon: <SiVite /> },
+    { name: "Unreal Engine", icon: <SiUnrealengine /> },
+    { name: "Blender", icon: <SiBlender /> },
   ];
 
   return (
@@ -49,6 +63,9 @@ function About() {
               className="m-2 border-orange-400 border-solid border-2 rounded-md p-2"
             >
               <div className="text-center">
+                <span className="flex justify-center text-3xl">
+                  {skill.icon}
+                </span>
                 <span className="text-white font-bold">{skill.name}</span>
               </div>
             </div>
