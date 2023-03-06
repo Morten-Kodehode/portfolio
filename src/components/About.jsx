@@ -7,7 +7,7 @@ function About() {
     { name: "JavaScript" },
     { name: "React" },
     { name: "SCSS" },
-    { name: "Tailwind CSS" },
+    { name: "Tailwind" },
     { name: "Git" },
     { name: "GitHub" },
     { name: "Figma" },
@@ -41,7 +41,7 @@ function About() {
         </p>
       </div>
       <div className="flex flex-col max-w-3xl lg:ml-12">
-        <h2 className="text-2xl py-12 text-orange-400">My Toolbox</h2>
+        <h2 className="text-3xl py-12 text-orange-400">My Toolbox</h2>
         <aside className="text-white grid-cols-2 lg:grid-cols-3 grid">
           {skills.map((skill, index) => (
             <div
