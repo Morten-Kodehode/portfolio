@@ -22,7 +22,7 @@ const LoadingOverlay = () => {
   return (
     <div
       className={`fixed inset-0 bg-hero bg-cover bg-center bg-no-repeat bg-black bg-opacity-60 bg-blend-overlay z-50 flex justify-center items-center overflow-hidden transition-opacity ${
-        hidden ? "opacity-0" : "opacity-100"
+        hidden ? "hidden" : "opacity-100"
       }`}
     >
       <div>
