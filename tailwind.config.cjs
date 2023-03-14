@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        hero: "url('/assets/laptopAlt.png')",
+        hero: "url('/assets/laptopAlt.avif')",
       },
       fontFamily: {
         lato: ["lato", "sans-serif"],
