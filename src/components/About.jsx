@@ -1,39 +1,14 @@
 import React from "react";
-import { AiOutlineHtml5 } from "react-icons/ai";
-import { DiCss3, DiSass, DiGit, DiGithubBadge } from "react-icons/di";
-import {
-  SiJavascript,
-  SiReact,
-  SiTailwindcss,
-  SiFigma,
-  SiUnrealengine,
-  SiVite,
-  SiBlender,
-} from "react-icons/si";
+import skills from "../data/skills";
 
 function About() {
-  const skills = [
-    { name: "HTML", icon: <AiOutlineHtml5 /> },
-    { name: "CSS", icon: <DiCss3 /> },
-    { name: "JavaScript", icon: <SiJavascript /> },
-    { name: "React", icon: <SiReact /> },
-    { name: "SCSS", icon: <DiSass /> },
-    { name: "Tailwind", icon: <SiTailwindcss /> },
-    { name: "Git", icon: <DiGit /> },
-    { name: "GitHub", icon: <DiGithubBadge /> },
-    { name: "Figma", icon: <SiFigma /> },
-    { name: "Vite", icon: <SiVite /> },
-    { name: "Unreal Engine", icon: <SiUnrealengine /> },
-    { name: "Blender", icon: <SiBlender /> },
-  ];
-
   return (
     <div className="bg-purple-900 font-lato px-3 md:px-10 lg:px-40 py-12 md:grid grid-cols-2">
       <div>
         <h2 className="text-3xl py-12 text-orange-400">A Little About Me</h2>
         <p className="text-xl text-orange-400 mb-5">/* The Beginning /</p>
         <p className="text-white mb-5">
-          Hi, I'm Morten. I'm 36 winters old. I have been interested in STEM
+          Hi, I'm Morten. I'm 37 winters old. I have been interested in STEM
           fields from a young age, so naturally I wandered head-first into
           computers and been fascinated with them since.
         </p>
@@ -60,8 +35,11 @@ function About() {
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="m-2 border-orange-400 border-solid border-2 rounded-md p-2"
+              className="m-2 border-orange-400 border-solid border-2 rounded-md p-2 relative"
             >
+              <div className="absolute inset-0 flex justify-center items-center opacity-0 hover:opacity-100 bg-orange-400 rounded-sm">
+                {skill.skillLvl}
+              </div>
               <div className="text-center">
                 <span className="flex justify-center text-3xl">
                   {skill.icon}

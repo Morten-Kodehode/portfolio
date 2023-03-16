@@ -1,7 +1,7 @@
 export default [
   {
     title: "PokeDex",
-    image: "/assets/pokedex.png",
+    image: "/assets/pokedex.webp",
     tools: ["HTML", "CSS", "JavaScript", "API"],
     github: "https://github.com/Morten-Kodehode/pokeDex",
     live: "https://morten-kodehode.github.io/pokeDex/",
@@ -9,7 +9,7 @@ export default [
   },
   {
     title: "IP Adress Tracker",
-    image: "/assets/iptracker.png",
+    image: "/assets/iptracker.webp",
     tools: ["HTML", "SCSS", "JavaScript", "API"],
     github: "https://github.com/Morten-Kodehode/IP-Address-Tracker",
     live: "https://morten-kodehode.github.io/IP-Address-Tracker/",
@@ -17,10 +17,34 @@ export default [
   },
   {
     title: "Christmas Tracker",
-    image: "/assets/xmas.png",
+    image: "/assets/xmas.webp",
     tools: ["HTML", "Tailwind", "React"],
     github: "https://github.com/Morten-Kodehode/christmas-countdown",
     live: "https://xmas.mortenjohansson.xyz/",
     desc: "Christmas project at Kodehode. Made a christmas countdown in ReactJS",
+  },
+  {
+    title: "Unit Converter",
+    image: "/assets/unitconverter.webp",
+    tools: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Morten-Kodehode/scrimba-UnitConverter",
+    live: "https://morten-kodehode.github.io/scrimba-UnitConverter/",
+    desc: "Simple unit converter. Solo project from Scrimba",
+  },
+  {
+    title: "Ohmyfood",
+    image: "/assets/ohmyfood.webp",
+    tools: ["HTML", "SCSS"],
+    github: "https://github.com/MortenJohansson/MortenJohansson_3_12152020_A",
+    live: "https://mortenjohansson.github.io/MortenJohansson_3_12152020_A/",
+    desc: "Menu page for a collection of resteurants.",
+  },
+  {
+    title: "Password Generator",
+    image: "/assets/pwdgen.webp",
+    tools: ["HTML", "CSS", "Javascript"],
+    github: "https://github.com/Morten-Kodehode/scrimba-passwordGenerator",
+    live: "https://morten-kodehode.github.io/scrimba-passwordGenerator/",
+    desc: "Simple password generator. Solo Scrimba project.",
   },
 ];
