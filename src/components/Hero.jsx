@@ -21,7 +21,7 @@ function Hero() {
         </a>
         to jump to the projects.
       </p>
-      <aside className="fixed left-0 bottom-50 flex flex-col justify-center items-center gap-y-3 p-2 bg-black w-[50px] rounded-tr-xl rounded-br-xl border-orange-700 border-2 z-10">
+      <aside className="fixed left-0 bottom-0 flex flex-col justify-center items-center gap-y-3 p-2 bg-black w-[50px] rounded-tr-xl border-orange-700 border-2 z-10">
         <a
           href="https://github.com/Morten-Kodehode"
           target="_blank"

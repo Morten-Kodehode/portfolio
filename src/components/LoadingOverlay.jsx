@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { css } from "@emotion/react";
-import { MoonLoader } from "react-spinners";
+import { HashLoader } from "react-spinners";
 
 const LoadingOverlay = () => {
   const [hidden, setHidden] = useState(false);
@@ -8,7 +8,7 @@ const LoadingOverlay = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setHidden(true);
-    }, 3000);
+    }, 1500);
 
     return () => clearTimeout(timer);
   }, []);
@@ -26,9 +26,9 @@ const LoadingOverlay = () => {
       }`}
     >
       <div>
-        <MoonLoader
+        <HashLoader
           css={override}
-          size={60}
+          size={50}
           color={"#FB923C"}
           loading={true}
           speedMultiplier={0.5}
